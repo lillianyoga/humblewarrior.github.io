@@ -193,7 +193,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-family: "Pacifico", cursive;
+		/* font-family: "Pacifico", cursive; */
 		font-weight: 400;
 		font-size: 3.25em;
 		margin: 0 0 0.25em 0;
@@ -1862,4 +1862,22 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		@media screen and (max-width: 980px) {
+			.spacer {
+				display: block;
+				margin-top: 40vh;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			.spacer {
+				display: block;
+				margin-top: 75vh;
+			}
 		}
