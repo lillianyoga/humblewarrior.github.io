@@ -1875,14 +1875,18 @@ input, select, textarea {
 			}
 		}
 
-		@media screen and (max-width: 480px) {
+		.content-inner {
+			display: flex;
+			justify-content: space-between;
+		}
+
+			@media screen and (max-width: 480px) {
 			.spacer {
 				display: block;
 				margin-top: 75vh;
 			}
-		}
 
-		.content-inner {
-			display: flex;
-			justify-content: space-between;
+			.content-inner {
+				flex-direction: column;
+			}
 		}
