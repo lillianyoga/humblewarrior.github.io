@@ -1881,3 +1881,8 @@ input, select, textarea {
 				margin-top: 75vh;
 			}
 		}
+
+		.content-inner {
+			display: flex;
+			justify-content: space-between;
+		}
