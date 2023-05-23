@@ -174,7 +174,7 @@
 							$this
 								.css('background-image', (bg.image ? bg.image + ',' : '') + 'url("' + $img.attr('src') + '")')
 								.css('background-size', (bg.size ? bg.size + ',' : '') + 'cover')
-								.css('background-position', (bg.position ? bg.position + ',' : '') + '0% 50%')
+								.css('background-position', (bg.position ? bg.position + ',' : '') + '0% 0%')
 								.css('background-repeat', (bg.repeat ? bg.repeat + ',' : '') + 'no-repeat')
 								.css('background-attachment', (bg.attachment ? bg.attachment + ',' : '') + 'fixed');
 
@@ -217,7 +217,7 @@
 									if (position)
 										$this.css('background-position', (bg.position ? bg.position + ',' : '') + position);
 									else
-										$this.css('background-position', (bg.position ? bg.position + ',' : '') + '0% 50%');
+										$this.css('background-position', (bg.position ? bg.position + ',' : '') + '0% 0%');
 
 								}
 								else {
@@ -227,7 +227,7 @@
 										w = $this.width(),
 										p = ( (sl - l) / w );
 
-									$this.css('background-position', (bg.position ? bg.position + ',' : '') + (p * 100) + '% 50%');
+									$this.css('background-position', (bg.position ? bg.position + ',' : '') + (p * 100) + '% 0%');
 
 								}
 
