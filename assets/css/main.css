@@ -1873,6 +1873,10 @@ input, select, textarea {
 				display: block;
 				margin-top: 40vh;
 			}
+
+			.image.left {
+				float: unset;
+			}
 		}
 
 		.content-inner {
