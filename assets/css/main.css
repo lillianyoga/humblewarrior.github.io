@@ -1876,6 +1876,7 @@ input, select, textarea {
 
 			.image.left {
 				float: unset;
+				padding: 0;
 			}
 		}
 
